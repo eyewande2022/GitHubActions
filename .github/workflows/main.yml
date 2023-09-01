@@ -2,7 +2,7 @@ name: GitHub Demo Project
 'on': push
 jobs:
   my-job:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: my-step
         run: echo "GitHUb Worflows for GitHub Actions!"
